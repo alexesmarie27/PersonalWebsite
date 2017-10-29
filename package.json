@@ -2,6 +2,11 @@
   "name": "PersonalWebsite",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "watch": "cross-env NODE_ENV=development webpack -w",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
   "repository": "https://github.com/alexesmarie27/PersonalWebsite.git",
   "author": "Alexes Presswood <ampress727@gmail.com>",
   "license": "MIT",
